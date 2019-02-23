@@ -211,7 +211,7 @@ if __name__ == '__main__':
     init_random_seed(params.manual_seed)
     args = parser.parse_args()
     
-    hnet = init_model(net=HNet3.HNet(), restore=None)
+    hnet = init_model(net=HNet.HNet(), restore=None)
     print("=== Training models ===")
     print(">>> hnet <<<")                            
     print(hnet)                       
