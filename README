@@ -1,5 +1,7 @@
-Modified from HNET, the ParamNet predicts a transform matrix to convert the original camera image to the pseudo－IPM.
+Modified from HNET（Towards End-to-End Lane Detection: an Instance Segmentation Approach）, the ParamNet predicts a transform matrix to convert the original camera image to the pseudo－IPM.
 
 Note
 1) We not use the original transform matrix.
 2) The original loss is hard to convergence，we use a new loss.
+
+
