@@ -1,7 +1,7 @@
 
 '''
 This file will output the transformation matrix H.
-
+The 5 values in out3 are the output of ParamNet.  
 '''
 import numpy as np
 import math
